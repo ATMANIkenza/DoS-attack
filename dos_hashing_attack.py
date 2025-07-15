@@ -7,7 +7,7 @@ import random
 import string
 
 # --- Configuration de l'Attaque ---
-TARGET_URL = "http://127.0.0.1:8000/login" # Assurez-vous que c'est l'IP et le port de votre serveur Flask
+TARGET_URL = "http://192.168.56.100:8000/login" # Assurez-vous que c'est l'IP et le port de votre serveur Flask
 NUM_THREADS = 100  # Nombre de "clients" concurrents simulant l'attaque.
                     # Augmentez ce nombre progressivement pour voir l'impact.
 REQUESTS_PER_THREAD = 200 # Nombre de requêtes POST que chaque thread va envoyer.
